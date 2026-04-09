@@ -7,7 +7,6 @@ function App() {
       <section id="center">
         <h1>Profiles</h1>        
       </section>
-
     </>
   )
 }
