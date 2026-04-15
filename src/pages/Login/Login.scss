@@ -1,13 +1,65 @@
-
 .login-main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 1em;
-    padding: 32px;
+  width: min(420px, 100%);
+  margin: 4rem auto;
+  padding: 2.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  background: rgba(13, 18, 33, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 32px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(18px);
+}
+
+.login-main-container .login-title {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.login-main-container .login-subtitle {
+  margin: 0;
+  color: rgba(237, 242, 255, 0.74);
+  line-height: 1.75;
+}
+
+.login-main-container .MuiInputBase-root {
+  width: 100%;
+}
+
+.login-main-container .MuiInputBase-input {
+  color: #f8fbff;
+}
+
+.login-main-container .MuiFormLabel-root {
+  color: rgba(237, 242, 255, 0.7);
+}
+
+.login-main-container .MuiInput-underline:before {
+  border-bottom-color: rgba(255, 255, 255, 0.22);
+}
+
+.login-main-container .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom-color: #7c3aed;
+}
+
+.login-main-container .MuiInput-underline:after {
+  border-bottom-color: #7c3aed;
 }
 
 .login-link {
-    font-size: 12px;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.login-main-container button {
+  width: 100%;
+}
+
+@media (max-width: 520px) {
+  .login-main-container {
+    margin: 2rem 1rem;
+    padding: 1.75rem 1.25rem;
+  }
 }

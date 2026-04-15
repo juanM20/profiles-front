@@ -14,15 +14,15 @@ const Footer = () => {
       }}
     >
       <Typography variant="body2" color="text.secondary">
-        © {new Date().getFullYear()} Profiles. Hecho con React.
+        © {new Date().getFullYear()} Profiles. All rights reserved.
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
         <Link href="#" underline="hover" color="inherit">
-          Privacidad
+          Privacy Policy
         </Link>
         {' · '}
         <Link href="#" underline="hover" color="inherit">
-          Contacto
+          Contact
         </Link>
       </Typography>
     </Box>
